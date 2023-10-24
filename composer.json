@@ -1,5 +1,6 @@
 {
   "name": "werd/phplib",
+  "version": "0.0.2",
   "description": "phplib",
   "authors": [
     {
@@ -27,8 +28,6 @@
     "psr-4": {
       "Lib\\": "src/"
     },
-    "files": [
-      "src/functions.php"
-    ]
+    "files": []
   }
 }
