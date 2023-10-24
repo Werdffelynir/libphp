@@ -1,0 +1,34 @@
+{
+  "name": "werd/phplib",
+  "description": "phplib",
+  "authors": [
+    {
+      "name": "werdffelynir",
+      "email": "werdffelynir@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "@php ./src/index.php",
+    "migrate": "@php ./src/migrate.php"
+  },
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pcntl": "*",
+    "ext-pdo": "*",
+    "ext-posix": "*",
+    "nesbot/carbon": "^2.43",
+    "guzzlehttp/guzzle": "^7.3",
+    "php-di/php-di": "^6.3",
+    "phpunit/phpunit": "^9.5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
